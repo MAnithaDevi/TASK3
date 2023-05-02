@@ -1,0 +1,23 @@
+//i)Using for loop
+
+var students = [{
+  "name": "Priya",
+  "Stnd":"5th",
+  "house":"yellow",
+  "rank": 1
+    },
+    {
+    "name": "Sony",
+    "Stnd":"4th",
+    "house":"blue",
+    "rank": 2
+     },
+    ]
+for (var i=0;i<students.length;i++) {
+    console.log("Student name is" + students[i].name );
+    console.log("Student Stnd is" + students[i].Stnd);
+    console.log("current house is" + students[i].house);
+    console.log("current rank is" + students[i].rank);
+}
+console.log(typeof(students));
+

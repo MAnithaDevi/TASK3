@@ -1,0 +1,68 @@
+
+var myResume = {
+    "profile": {
+      "name": "M.Anitha Devi",
+      "email": "anithadevimuthu99@#gmail.com",
+      "phone": "9346583624",
+      "summary": "Post graduate in viscom",
+      "location": {
+        "address": "Devi Street",
+        "postalCode": "600117",
+        "city": "Chennai",
+        "state":"Tamilnadu",
+        "countryCode": "India"}
+        },
+      
+  
+    "education": [
+      {
+          "studytype":"schooling",
+        "area": "HigherSecondary",
+        "period":"2015-2017",
+        "percentage": "66%"
+        
+      },
+  
+      {
+          "studyType": "Bachelor ",
+          "Degree": "B.Sc Viscom",
+       "period": "2017-2020",
+        "gpa": "74.9"
+        
+      }
+    ],
+   
+    "skills": [
+    {
+        "name": "Team Lead",
+        "level": "Professional"
+        
+      },
+      {
+        "name":  "Programming Languages",
+        "level": "AbsoluteBeginner"
+        
+      }
+    ],
+    "languages": [
+      {
+        "language": "Tamil",
+        "fluency": "Professional"
+      },
+      {
+        "language": "English",
+        "fluency": "Professional"
+      },
+      {
+        "language": "Hindi",
+        "fluency": "average"
+      }
+    ],
+    "interests": [
+         "singing","Technology","EnvironmentAwareness"
+         ]
+  }
+  
+  console.log(myResume)
+   
+  
